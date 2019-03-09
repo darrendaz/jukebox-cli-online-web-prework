@@ -56,7 +56,7 @@ end
 def run(songs)
   help
   puts "Please enter a command:"
-  command = gets.chomp
+  command = gets.downcase.strip
   while command
     case command
       when "help"
