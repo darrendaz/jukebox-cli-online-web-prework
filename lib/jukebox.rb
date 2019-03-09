@@ -55,10 +55,10 @@ end
 
 def run(songs)
   input = ""
-  while command
+  while input
     puts "Please enter a command:"
     input = gets.downcase.strip
-    case command
+    case input
       when "help"
         help
       when "play"
